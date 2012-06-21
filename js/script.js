@@ -62,11 +62,32 @@ $("document").ready(function(){
 		}, 2000);
 	});
 
+	$('a#strings').click(function(){
+
+		$('html, body').animate({
+			scrollTop: $("#strings_details").offset().top
+		}, 2000);
+	});
 
 	$('a#threeprojects_granddream').click(function(){
 		
 		$('html, body').animate({
 			scrollTop: $("#granddream").offset().top
+		}, 2000);
+
+	});
+
+	$('a#strings_details').click(function(){
+		$('html, body').animate({
+			scrollTop: $("#granddream").offset().top
+		}, 2000);
+
+	});
+
+	$('a#granddream').click(function(){
+
+		$('html, body').animate({
+			scrollTop: $("#granddream_details").offset().top
 		}, 2000);
 
 	});
@@ -77,6 +98,30 @@ $("document").ready(function(){
 			scrollTop: $("#digitaldecay").offset().top
 		}, 2000);
 	
+	});
+
+	$('a#granddream_details').click(function(){
+		
+		$('html, body').animate({
+			scrollTop: $("#digitaldecay").offset().top
+		}, 2000);
+
+	});
+
+
+	$('a#digitaldecay').click(function(){
+		
+		$('html, body').animate({
+			scrollTop: $("#digitaldecay_details").offset().top
+		}, 2000);
+
+	});
+
+
+	$('a#digitaldecay_details').click(function(){
+		$('html, body').animate({
+			scrollTop: $("#activities").offset().top
+		}, 2000);
 	});
 
 

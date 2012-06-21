@@ -51,7 +51,7 @@ body { background-color: #000000; margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #8FF9BF; }
+a { color: #8FF9BF; text-decoration: none;}
 a:visited { color: #8FF9BF; }
 a:hover { color: #8FF9BF; }
 a:focus { outline: thin dotted; }
@@ -231,54 +231,110 @@ td { vertical-align: top; }
 	font-size: 48px;
 }
 
-#hello{
+p{
+	background-color: rgba(0,0,0,0.5);
+	margin: 5px;
+	padding: 5px;
+}
+
+div#hello{
+	height: 800px;
+	background-image:url('../img/hello.jpg');
+	background-repeat: no-repeat;
+}
+
+div#aboutme{
+	height: 800px;
+	background-image:url('../img/johannblowingonsoup.jpg');
+	background-repeat: no-repeat;
+}
+
+div#background{
+	height: 800px;
+	background-image:url('../img/upenn.jpg');
+	background-repeat: no-repeat;
+}
+
+div#postcollege{
 	height: 800px;
 }
 
-#aboutme{
+div#itp{
 	height: 800px;
+	background-image:url('../img/centerTable.jpg');
+	background-repeat: no-repeat;
 }
-#background{
+
+div#classes{
 	height: 800px;
+	background-image:url('../img/itpclass.jpg');
+	background-repeat: no-repeat;
 }
-#postcollege{
+
+div#threeprojects{
 	height: 800px;
+	background-image:url('../img/projects.jpg');
+	background-repeat: no-repeat;
 }
-#itp{
-	height: 800px;
-}
-#classes{
-	height: 800px;
-}
-#threeprojects{
-	height: 800px;
-}
-#strings{
+
+div#strings{
 	height: 800px;
 	padding: 0px;
 }
-#granddream{
+
+div#strings_details{
 	height: 800px;
 	padding: 0px;
 }
-#digitaldecay{
+
+div#granddream{
 	height: 800px;
 	padding: 0px;
 }
-#activities{
+
+div#granddream_details{
+	height: 800px;
+	padding: 0px;
+	background-image:url('../img/granddream.jpg');
+	background-repeat: no-repeat;
+}
+
+div#digitaldecay{
+	height: 800px;
+	padding: 0px;
+}
+
+div#digitaldecay_details{
+	height: 800px;
+	padding: 0px;
+	background-image:url('../img/digitaldecay.jpg');
+	background-repeat: no-repeat;
+}
+
+div#activities{
+	height: 800px;
+	background-image:url('../img/activities.jpeg');
+	background-repeat: no-repeat;
+}
+
+div#ycam{
 	height: 800px;
 }
-#ycam{
+
+div#aspirations{
 	height: 800px;
 }
-#aspirations{
+
+div#thanks{
 	height: 800px;
+	background-image:url('../img/johannpho75.jpg');
+	background-repeat: no-repeat;
 }
-#thanks{
+
+div#contact{
 	height: 800px;
-}
-#contact{
-	height: 800px;
+	background-image:url('../img/johannstretching.jpg');
+	background-repeat: no-repeat;
 }
 
 
