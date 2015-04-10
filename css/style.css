@@ -51,9 +51,28 @@ body { background-color: #000000; margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #8FF9BF; text-decoration: none;}
+a { 
+	transition-property: color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 1s;
+	-o-transition-property: color;
+	-o-transition-duration: 1s;
+	color: #8FF9BF; 
+	text-decoration: none;
+	
+}
 a:visited { color: #8FF9BF; }
-a:hover { color: #8FF9BF; }
+a:hover { 
+	transition-property: color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 1s;
+	-o-transition-property: color;
+	-o-transition-duration: 1s;
+	color: #ffffff; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -232,108 +251,121 @@ td { vertical-align: top; }
 }
 
 p{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.67);
 	margin: 5px;
-	padding: 5px;
+	padding: 2px;
+	display: inline;
 }
 
-div#hello{
+div#hello{	
 	height: 800px;
-	background-image:url('../img/hello.jpg');
+	background-image:url('../img/intro.jpg');
 	background-repeat: no-repeat;
 }
 
 div#aboutme{
 	height: 800px;
-	background-image:url('../img/johannblowingonsoup.jpg');
+	background-image:url('../img/exceptions.jpg');
 	background-repeat: no-repeat;
+}
+
+
+div#age{
+	display: hidden;
 }
 
 div#background{
 	height: 800px;
-	background-image:url('../img/upenn.jpg');
+	background-image:url('../img/3.png');
 	background-repeat: no-repeat;
 }
 
 div#postcollege{
 	height: 800px;
+	background-image:url('../img/4.png');
+	background-repeat: no-repeat;
 }
 
 div#itp{
 	height: 800px;
-	background-image:url('../img/centerTable.jpg');
+	background-image:url('../img/otomo.jpg');
 	background-repeat: no-repeat;
 }
 
 div#classes{
 	height: 800px;
-	background-image:url('../img/itpclass.jpg');
+	background-image:url('../img/otomo.jpg');
 	background-repeat: no-repeat;
 }
 
 div#threeprojects{
 	height: 800px;
-	background-image:url('../img/projects.jpg');
+	background-image:url('../img/otomo.jpg');
 	background-repeat: no-repeat;
 }
 
 div#strings{
 	height: 800px;
 	padding: 0px;
+	height: 800px;
+	background-image:url('../img/otomo.jpg');
 }
 
 div#strings_details{
 	height: 800px;
-	padding: 0px;
+	background-image:url('../img/kanta_horio.jpg');
+	background-repeat: no-repeat;
 }
 
 div#granddream{
 	height: 800px;
-	padding: 0px;
+	background-image:url('../img/kanta_horio.jpg');
 }
 
 div#granddream_details{
 	height: 800px;
-	padding: 0px;
-	background-image:url('../img/granddream.jpg');
+	background-image:url('../img/tetsuya.jpg');
 	background-repeat: no-repeat;
 }
 
 div#digitaldecay{
 	height: 800px;
-	padding: 0px;
+	background-image:url('../img/tetsuya.jpg');
 }
 
 div#digitaldecay_details{
 	height: 800px;
-	padding: 0px;
-	background-image:url('../img/digitaldecay.jpg');
+	background-image:url('../img/kantaumeda.jpg');
 	background-repeat: no-repeat;
 }
 
 div#activities{
 	height: 800px;
-	background-image:url('../img/activities.jpeg');
+	background-image:url('../img/exonemo.jpg');
 	background-repeat: no-repeat;
 }
 
 div#ycam{
 	height: 800px;
+	background-image:url('../img/exonemo.jpg');
+	background-repeat: no-repeat;
 }
 
 div#aspirations{
 	height: 800px;
+	background-image:url('../img/yuri.jpg');
+	background-repeat: no-repeat;
 }
 
 div#thanks{
 	height: 800px;
-	background-image:url('../img/johannpho75.jpg');
+	background-image:url('../img/yuri.jpg');
 	background-repeat: no-repeat;
 }
 
 div#contact{
 	height: 800px;
-	background-image:url('../img/johannstretching.jpg');
+	background-image:url('../img/yuri.jpg');
 	background-repeat: no-repeat;
 }
 
